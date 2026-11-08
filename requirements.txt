@@ -1,0 +1,16 @@
+# Environment used: Google Colab (Python 3.13, NVIDIA T4 for training, CPU for timing).
+# Versions other than onnxruntime are the Colab defaults at the time of the runs and are not pinned.
+torch
+torchvision
+timm
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+librosa
+matplotlib
+onnx
+onnxruntime==1.31.1
+shap
+psutil

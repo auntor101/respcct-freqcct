@@ -1,0 +1,160 @@
+{
+  "trial": "V3_cct_m_kd_paper_f0_s0",
+  "epochs_run": 126,
+  "best_epoch": 114,
+  "early_stopped": true,
+  "val_loss": 0.15247759222984314,
+  "val_acc": 0.9865674351061898,
+  "val_macro_f1": 0.9865650835872838,
+  "train_acc_at_best": 0.5676308039856388,
+  "params": 967619,
+  "mflops": 536.823648,
+  "mflops_analytic": 536.782592,
+  "batch_size": 256,
+  "kd": true,
+  "seconds_total": 5571.872238636017,
+  "seconds_per_epoch": 44.22120824314299,
+  "seconds_to_best": 5035.778104305267,
+  "minutes": 92.86453731060028,
+  "gpu": "Tesla T4",
+  "hash": "641229f41b4f",
+  "test_accuracy": 0.9864349300551081,
+  "test_macro_f1": 0.9747556984950518,
+  "test_macro_f1_all7": 0.9747556984950518,
+  "test_bal_acc": 0.9888749264102178,
+  "test_mcc": 0.9557949704416739,
+  "test_majority_acc": 0.8338278931750742,
+  "test_n_classes": 7,
+  "test_n": 2359,
+  "per_class": [
+    {
+      "cls": "COPD",
+      "n": 1967,
+      "precision": 0.9974332648870636,
+      "recall": 0.9877986781901372,
+      "specificity": 0.9872448979591837,
+      "f1": 0.9925925925925925
+    },
+    {
+      "cls": "Healthy",
+      "n": 139,
+      "precision": 0.9370629370629371,
+      "recall": 0.9640287769784173,
+      "specificity": 0.995945945945946,
+      "f1": 0.9503546099290779
+    },
+    {
+      "cls": "Asthma",
+      "n": 101,
+      "precision": 0.8909090909090909,
+      "recall": 0.9702970297029703,
+      "specificity": 0.9946855624446412,
+      "f1": 0.9289099526066351
+    },
+    {
+      "cls": "Pneumonia",
+      "n": 70,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "specificity": 0.9978156400174749,
+      "f1": 0.9655172413793104
+    },
+    {
+      "cls": "URTI",
+      "n": 35,
+      "precision": 0.9722222222222222,
+      "recall": 1.0,
+      "specificity": 0.9995697074010327,
+      "f1": 0.9859154929577464
+    },
+    {
+      "cls": "Bronchiectasis",
+      "n": 29,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    {
+      "cls": "Bronchiolitis",
+      "n": 18,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "confusion": [
+    [
+      1943,
+      7,
+      11,
+      5,
+      1,
+      0,
+      0
+    ],
+    [
+      4,
+      134,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      98,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      70,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      29,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18
+    ]
+  ],
+  "rec_accuracy": 0.9881141045958796,
+  "rec_macro_f1": 0.980959274258197,
+  "rec_macro_f1_all7": 0.980959274258197,
+  "rec_bal_acc": 0.9864320099028058,
+  "rec_mcc": 0.9643446332327676,
+  "rec_majority_acc": 0.812202852614897,
+  "rec_n_classes": 7,
+  "rec_n": 1262
+}

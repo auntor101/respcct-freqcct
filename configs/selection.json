@@ -1,0 +1,59 @@
+{
+  "headline": "cct_tuned_fused",
+  "rule": "mean validation macro-F1 over 5 folds; ties within 0.002 -> fewer parameters",
+  "candidates": [
+    {
+      "model": "cct_ref",
+      "label": "CCT (reference)",
+      "val_macro_f1": 0.96918,
+      "val_acc": 0.96918,
+      "params": 173128,
+      "mflops": 124.23258
+    },
+    {
+      "model": "freqcct_final",
+      "label": "FreqCCT (final)",
+      "val_macro_f1": 0.9718,
+      "val_acc": 0.97183,
+      "params": 124999,
+      "mflops": 72.51354
+    },
+    {
+      "model": "cct_tuned",
+      "label": "CCT (tuned)",
+      "val_macro_f1": 0.97474,
+      "val_acc": 0.97473,
+      "params": 173128,
+      "mflops": 124.23258
+    },
+    {
+      "model": "cct_tuned_fused",
+      "label": "CCT (tuned) + se",
+      "val_macro_f1": 0.97758,
+      "val_acc": 0.9776,
+      "params": 173187,
+      "mflops": 124.23267
+    }
+  ],
+  "core": {
+    "lr": 0.002946392572409209,
+    "wd": 0.0,
+    "batch_size": 128,
+    "smooth": 0.15,
+    "sched": "cosine",
+    "fmask": 0,
+    "tmask": 8,
+    "mixup": 0.0,
+    "ema": 0.99,
+    "max_epochs": 100,
+    "patience": 12,
+    "clip": 1.0,
+    "mlp_drop": 0.08773376258157164,
+    "attn_drop": 0.08107134336033077,
+    "sd": 0.08471795361103053,
+    "balance": false,
+    "arch": "cct",
+    "fusion": "se"
+  },
+  "chosen_at": "2026-10-23T18:03:01"
+}

@@ -1,0 +1,5 @@
+model,tau_chosen_on_validation,frame_F1_raw,frame_F1_prior_corrected,frame_acc_raw,frame_acc_prior_corrected,recording_vote_acc,recording_vote_F1
+cct_ref,0.5,0.9377,0.9521,0.9652,0.9712,0.9723,0.9628
+freqcct_final,0.4,0.9514,0.9654,0.9758,0.9813,0.9834,0.9732
+cct_tuned,0.6,0.9584,0.9706,0.9792,0.983,0.9834,0.9735
+cct_tuned_fused,0.0,0.9695,0.9695,0.9813,0.9813,0.9849,0.9765

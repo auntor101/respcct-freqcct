@@ -1,0 +1,3 @@
+model,adopted,reference_val_f1,reference_sd,chosen,chosen_val_f1,gain,lr,wd,mlp_drop,attn_drop,sd,smooth,sched,fmask,tmask,mixup,ema,e,layers,heads,ratio,pe,tpool,lock_hash
+cct,True,0.9164,0.0081,c1,0.9538,0.0374,0.002946392572409209,0.0,0.08773376258157164,0.08107134336033077,0.08471795361103053,0.15,cosine,0,8,0.0,0.99,,,,,,,52ac6e52726b
+freqcct,True,0.8947,0.0196,c2,0.9413,0.0466,0.002946392572409209,0.0,0.08773376258157164,0.08107134336033077,0.08471795361103053,0.15,cosine,0,8,0.0,0.99,64.0,4.0,4.0,1.0,,mean,2aad7d5034e1

@@ -1,0 +1,4 @@
+metric,overall_mean,sd_over_folds,sd_over_seeds,runs,min,max
+test_accuracy,0.9765,0.0041,0.0014,15,0.9674,0.9818
+test_macro_f1,0.9594,0.0071,0.0018,15,0.9411,0.9728
+test_mcc,0.9263,0.0119,0.0048,15,0.8981,0.9424

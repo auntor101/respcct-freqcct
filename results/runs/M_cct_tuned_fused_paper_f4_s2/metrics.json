@@ -1,0 +1,157 @@
+{
+  "trial": "M_cct_tuned_fused_paper_f4_s2",
+  "epochs_run": 67,
+  "best_epoch": 55,
+  "early_stopped": true,
+  "val_loss": 0.17783132195472717,
+  "val_acc": 0.9773098565982937,
+  "val_macro_f1": 0.9772574284907031,
+  "params": 173187,
+  "mflops": 124.232672,
+  "mflops_analytic": 124.212096,
+  "seconds_total": 1007.6366083621979,
+  "seconds_per_epoch": 15.039352363614894,
+  "seconds_to_best": 826.5862848758698,
+  "minutes": 16.793943472703297,
+  "gpu": "Tesla T4",
+  "hash": "b7a0dcfe4489",
+  "test_accuracy": 0.9782062028499581,
+  "test_macro_f1": 0.9631532512027551,
+  "test_macro_f1_all7": 0.9631532512027551,
+  "test_bal_acc": 0.9774418166880644,
+  "test_mcc": 0.9317705172965103,
+  "test_majority_acc": 0.8243922883487007,
+  "test_n_classes": 7,
+  "test_n": 2386,
+  "per_class": [
+    {
+      "cls": "COPD",
+      "n": 1967,
+      "precision": 0.9923037455105183,
+      "recall": 0.9832231825114387,
+      "specificity": 0.964200477326969,
+      "f1": 0.9877425944841676
+    },
+    {
+      "cls": "Healthy",
+      "n": 174,
+      "precision": 0.9364161849710982,
+      "recall": 0.9310344827586207,
+      "specificity": 0.9950271247739603,
+      "f1": 0.9337175792507204
+    },
+    {
+      "cls": "Asthma",
+      "n": 97,
+      "precision": 0.8035714285714286,
+      "recall": 0.9278350515463918,
+      "specificity": 0.9903888160768894,
+      "f1": 0.8612440191387559
+    },
+    {
+      "cls": "Pneumonia",
+      "n": 76,
+      "precision": 0.9620253164556962,
+      "recall": 1.0,
+      "specificity": 0.9987012987012988,
+      "f1": 0.9806451612903226
+    },
+    {
+      "cls": "URTI",
+      "n": 35,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    {
+      "cls": "Bronchiectasis",
+      "n": 23,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "specificity": 0.9995768091409225,
+      "f1": 0.9787234042553191
+    },
+    {
+      "cls": "Bronchiolitis",
+      "n": 14,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "confusion": [
+    [
+      1934,
+      9,
+      20,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      10,
+      162,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      2,
+      90,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "rec_accuracy": 0.981637337413925,
+  "rec_macro_f1": 0.974248753655562,
+  "rec_macro_f1_all7": 0.974248753655562,
+  "rec_bal_acc": 0.983673473648581,
+  "rec_mcc": 0.9462776608622159,
+  "rec_majority_acc": 0.8087222647283856,
+  "rec_n_classes": 7,
+  "rec_n": 1307
+}

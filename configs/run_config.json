@@ -1,0 +1,23 @@
+{
+  "run_id": "run_20261022_070616",
+  "created": "2026-10-22T07:06:17",
+  "tuning_depth": "standard",
+  "tune_protocol": "frame",
+  "run_patient": false,
+  "fusion_models": [
+    "cct",
+    "freqcct"
+  ],
+  "final_seeds": [
+    0,
+    1,
+    2
+  ],
+  "tune": {
+    "s1": 20,
+    "s2": 10,
+    "top": 3
+  },
+  "freqcct_cap": "own",
+  "python": "3.13.15"
+}

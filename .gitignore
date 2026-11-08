@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# raw data and extracted features are not redistributed
+data/
+features/
+*.npy
+*.pt
+*.onnx

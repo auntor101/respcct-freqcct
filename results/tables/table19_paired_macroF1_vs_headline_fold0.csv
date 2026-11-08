@@ -1,0 +1,42 @@
+model,group,diff,lo,hi
+"data: real frames only, class-balanced sampling",H,-0.511,-0.5603,-0.46
+F3a real frames only,F,-0.3248,-0.4018,-0.2675
+encoder: 0 layers,H,-0.2916,-0.3432,-0.2499
+data: real frames only,H,-0.1894,-0.2416,-0.1507
+F3b reference recipe,F,-0.0861,-0.121,-0.0616
+FreqCCT (reference),A,-0.074,-0.1063,-0.0499
+CCT + depthwise tokenizer,A,-0.0497,-0.0763,-0.0299
+F4a top-12 rows,F,-0.0476,-0.0777,-0.0268
+CCT (tuned) + se_vdrop,fusion,-0.04,-0.0623,-0.0228
+FreqCCT (final) + vdrop,fusion,-0.0341,-0.0594,-0.0172
+views: CQT + MFCC (no mel),H,-0.034,-0.059,-0.0148
+CCT (reference),main,-0.0318,-0.049,-0.0161
+F4b random-12 rows,F,-0.0306,-0.0488,-0.0147
+FreqCCT (final) + se_vdrop,fusion,-0.0258,-0.047,-0.0098
+F2a mel only,F,-0.0253,-0.0491,-0.0102
+FreqCCT (final) + stem,fusion,-0.025,-0.0505,-0.0087
+FreqCCT (final) + norm,fusion,-0.023,-0.041,-0.0095
+FreqCCT (final) + se,fusion,-0.0205,-0.0378,-0.008
+FreqCCT (final),main,-0.0181,-0.0358,-0.0051
+"encoder: no attention, params matched (FFN ratio 4.0)",H,-0.0179,-0.0348,-0.0032
+"F1d CCT body, same recipe",F,-0.0177,-0.0384,-0.0037
+F1a no position,F,-0.0169,-0.0361,-0.0007
+F1b SeqPool head,F,-0.016,-0.0315,-0.0024
+F2b mel + CQT,F,-0.0151,-0.0323,-0.003
+CCT (tuned) + vdrop,fusion,-0.0137,-0.0249,-0.0032
+pooling: class token,H,-0.0135,-0.0325,-0.0007
+CCT (tuned) + norm,fusion,-0.0131,-0.0294,-0.0021
+pooling: mean,H,-0.0125,-0.0332,0.0021
+CCT (tuned),main,-0.0111,-0.0277,0.0001
+CCT (tuned) + se,fusion,-0.0102,-0.0263,0.0013
+views: mel + CQT,H,-0.0098,-0.0219,0.0007
+views: mel only,H,-0.0094,-0.0249,0.0039
+CCT (tuned) + stem,fusion,-0.008,-0.0215,0.0026
+CCT + PE + freq. pooling,A,-0.0076,-0.0201,0.0043
+views: mel + MFCC,H,-0.0045,-0.0159,0.0072
+ShuffleNetV2 x0.5 (matched),E,-0.0035,-0.0139,0.0064
+F1c standard tokenizer,F,-0.0035,-0.0186,0.0081
+MobileNetV3-Small (matched),E,0.0082,-0.0034,0.0201
+"ResNet-18 (over cap, reference)",E,0.0113,-0.0033,0.0233
+"EfficientNet-B0 (over cap, reference)",E,0.0146,0.0045,0.0249
+MobileViT-XXS (matched),E,0.0148,0.0056,0.0255

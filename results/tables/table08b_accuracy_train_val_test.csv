@@ -1,0 +1,13 @@
+label,best_epoch,epochs_run,train_acc,val_acc,test_acc,test_macro_f1
+CCT + PE + freq. pooling,47,59,0.9997,0.9782,0.9792,0.9619
+CCT + depthwise tokenizer,30,42,0.9768,0.9412,0.9606,0.9198
+FreqCCT (reference),53,65,0.9998,0.9637,0.9534,0.8954
+CCT (reference),34,46,0.9963,0.9657,0.9652,0.9377
+CCT (tuned) + se,68,80,0.9843,0.9809,0.9813,0.9695
+CCT (tuned),59,71,0.9814,0.9759,0.9792,0.9584
+FreqCCT (final),47,59,0.9819,0.9708,0.9758,0.9514
+"ResNet-18 (over cap, reference)",23,35,0.9944,0.9933,0.9907,0.9808
+"EfficientNet-B0 (over cap, reference)",30,42,0.9937,0.9924,0.9915,0.9841
+MobileViT-XXS (matched),49,61,0.9979,0.9917,0.9911,0.9843
+MobileNetV3-Small (matched),37,49,0.9948,0.9897,0.9881,0.9777
+ShuffleNetV2 x0.5 (matched),51,63,0.9926,0.9835,0.9784,0.9659

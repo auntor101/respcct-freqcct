@@ -1,0 +1,38 @@
+{
+  "model": "freqcct",
+  "base": "freqcct_final",
+  "best_variant": "stem",
+  "adopted": false,
+  "decision": "rejected at fold 0 (gain within seed noise)",
+  "ref_val_f1": 0.970729217304921,
+  "ref_sd": 0.002,
+  "variants": {
+    "norm": {
+      "val_macro_f1": 0.963549899948582,
+      "val_acc": 0.9635142494100563,
+      "params": 124999
+    },
+    "stem": {
+      "val_macro_f1": 0.9723914161727052,
+      "val_acc": 0.9724087856235252,
+      "params": 125158
+    },
+    "se": {
+      "val_macro_f1": 0.9678052728353137,
+      "val_acc": 0.9678707569431839,
+      "params": 125058
+    },
+    "vdrop": {
+      "val_macro_f1": 0.96323839490267,
+      "val_acc": 0.9633327282628427,
+      "params": 124999
+    },
+    "se_vdrop": {
+      "val_macro_f1": 0.9680452857879747,
+      "val_acc": 0.9680522780903975,
+      "params": 125058
+    }
+  },
+  "core": null,
+  "per_fold": []
+}

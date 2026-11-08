@@ -1,0 +1,11 @@
+model,variant,val_macro_f1,val_acc,params,gain_vs_plain,seed_sd_of_plain,picked
+cct,norm,0.9768,0.9768,173128,0.0009,0.002,False
+cct,stem,0.9793,0.9793,173287,0.0034,0.002,False
+cct,se,0.9797,0.9797,173187,0.0038,0.002,True
+cct,vdrop,0.9664,0.9664,173128,-0.0095,0.002,False
+cct,se_vdrop,0.9665,0.9666,173187,-0.0094,0.002,False
+freqcct,norm,0.9635,0.9635,124999,-0.0072,0.002,False
+freqcct,stem,0.9724,0.9724,125158,0.0017,0.002,True
+freqcct,se,0.9678,0.9679,125058,-0.0029,0.002,False
+freqcct,vdrop,0.9632,0.9633,124999,-0.0075,0.002,False
+freqcct,se_vdrop,0.968,0.9681,125058,-0.0027,0.002,False

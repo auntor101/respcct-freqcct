@@ -1,0 +1,58 @@
+{
+  "model": "freqcct",
+  "adopted": true,
+  "core": {
+    "lr": 0.002946392572409209,
+    "wd": 0.0,
+    "batch_size": 128,
+    "smooth": 0.15,
+    "sched": "cosine",
+    "fmask": 0,
+    "tmask": 8,
+    "mixup": 0.0,
+    "ema": 0.99,
+    "max_epochs": 100,
+    "patience": 12,
+    "clip": 1.0,
+    "mlp_drop": 0.08773376258157164,
+    "attn_drop": 0.08107134336033077,
+    "sd": 0.08471795361103053,
+    "balance": false,
+    "arch": "freqcct",
+    "e": 64,
+    "layers": 4,
+    "heads": 4,
+    "ratio": 1,
+    "tpool": "mean"
+  },
+  "ref_mean": 0.8946519839868815,
+  "ref_sd": 0.019608484168438443,
+  "chosen_config": "c2",
+  "chosen_mean": 0.9412517620080616,
+  "chosen_sd": 0.02146654458635235,
+  "hash": "2aad7d5034e1",
+  "locked_at": "2026-10-23T08:16:43",
+  "candidates": [
+    {
+      "config": "c0",
+      "mean": 0.937020528434765,
+      "sd": 0.012571720381807358,
+      "mflops": 82.999296,
+      "params": 158023
+    },
+    {
+      "config": "c1",
+      "mean": 0.9459349057003437,
+      "sd": 0.0023503286608383103,
+      "mflops": 82.999296,
+      "params": 158023
+    },
+    {
+      "config": "c2",
+      "mean": 0.9412517620080616,
+      "sd": 0.02146654458635235,
+      "mflops": 72.513536,
+      "params": 124999
+    }
+  ]
+}

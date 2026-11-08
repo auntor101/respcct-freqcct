@@ -1,0 +1,10 @@
+model,params,mflops_counted,mflops_formula,latency_ms_median,latency_ms_p90,peak_activation_kB,weights_kB_fp32
+CCT (reference),173128,124.2,124.2,6.41,7.95,655.4,692.5
+CCT (tuned),173128,124.2,124.2,6.43,7.21,655.4,692.5
+FreqCCT (final),124999,72.5,72.5,5.81,6.57,655.4,500.0
+ShuffleNetV2 x0.5,348967,17.2,,9.11,11.57,245.8,1395.9
+MNASNet 0.5,946479,45.2,,7.8,8.57,245.8,3785.9
+MobileNetV3-Small,931047,24.5,,6.84,7.71,184.3,3724.2
+MobileViT-XXS,953271,109.6,,13.96,16.14,327.7,3813.1
+EfficientNet-B0,4016515,168.2,,16.06,17.95,983.0,16066.1
+ResNet-18,11180103,773.8,,19.63,21.93,655.4,44720.4

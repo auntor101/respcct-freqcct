@@ -1,0 +1,5 @@
+A,B,macroF1_A_minus_B,CI95_low,CI95_high,only_A_correct,only_B_correct,mcnemar_p,holm_p
+freqcct_final,cct_ref,0.0137,-0.0059,0.0297,53,28,0.0077,0.0154
+cct_tuned,cct_ref,0.0207,0.0013,0.0408,57,24,0.0004,0.0012
+freqcct_final,cct_tuned,-0.007,-0.0236,0.0086,19,27,0.302,0.302
+freqcct_final,freqcct_ref,0.0559,0.034,0.0855,73,20,0.0,0.0

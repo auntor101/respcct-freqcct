@@ -1,0 +1,4 @@
+step,ms_per_frame,share
+mel,2.81,9.5%
+cqt,25.0,84.4%
+mfcc,1.8,6.1%

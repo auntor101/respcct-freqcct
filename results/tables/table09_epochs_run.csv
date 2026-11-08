@@ -1,0 +1,79 @@
+trial,label,epochs_run,best_epoch
+A2_pefp_paper_f0_s0,CCT + PE + freq. pooling,59,47
+A3_dw_paper_f0_s0,CCT + depthwise tokenizer,42,30
+A4_freqcct_ref_paper_f0_s0,FreqCCT (reference),65,53
+E_effnetb0_lr0.001_paper_f0_s0,"EfficientNet-B0 (over cap, reference)",42,30
+E_mobilenetv3s_lr0.0001_paper_f0_s0,MobileNetV3-Small (matched),74,62
+E_mobilenetv3s_lr0.0003_paper_f0_s0,MobileNetV3-Small (matched),58,46
+E_mobilenetv3s_lr0.001_paper_f0_s0,MobileNetV3-Small (matched),49,37
+E_mobilevitxxs_lr0.001_paper_f0_s0,MobileViT-XXS (matched),61,49
+E_resnet18_lr0.001_paper_f0_s0,"ResNet-18 (over cap, reference)",35,23
+E_shufflenet05_lr0.0001_paper_f0_s0,ShuffleNetV2 x0.5 (matched),73,61
+E_shufflenet05_lr0.0003_paper_f0_s0,ShuffleNetV2 x0.5 (matched),77,65
+E_shufflenet05_lr0.001_paper_f0_s0,ShuffleNetV2 x0.5 (matched),63,51
+F1a_no_position_paper_f0_s0,F1a no position,71,59
+F1b_no_freq_pooling_paper_f0_s0,F1b SeqPool head,79,67
+F1c_standard_tokenizer_paper_f0_s0,F1c standard tokenizer,58,46
+F1d_none_paper_f0_s0,"F1d CCT body, same recipe",63,51
+F2a_mel_only_paper_f0_s0,F2a mel only,63,51
+F2b_mel_cqt_paper_f0_s0,F2b mel + CQT,59,47
+F3a_no_waveform_aug_paper_f0_s0,F3a real frames only,39,27
+F3b_reference_recipe_paper_f0_s0,F3b reference recipe,48,36
+F4a_top12_rows_paper_f0_s0,F4a top-12 rows,57,45
+F4b_random12_rows_paper_f0_s0,F4b random-12 rows,67,55
+H1a_mel_only_paper_f0_s0,views: mel only,84,72
+H1b_mel_cqt_paper_f0_s0,views: mel + CQT,63,51
+H1c_mel_mfcc_paper_f0_s0,views: mel + MFCC,81,69
+H1d_cqt_mfcc_paper_f0_s0,views: CQT + MFCC (no mel),71,59
+H2a_no_encoder_paper_f0_s0,encoder: 0 layers,100,97
+H2b_no_attention_matched_paper_f0_s0,"encoder: no attention, params matched (FFN ratio 4.0)",90,78
+H3a_real_only_paper_f0_s0,data: real frames only,60,48
+H3b_real_only_balanced_paper_f0_s0,"data: real frames only, class-balanced sampling",26,14
+H4a_mean_pool_paper_f0_s0,pooling: mean,63,51
+H4b_class_token_paper_f0_s0,pooling: class token,78,66
+M_cct_ref_paper_f0_s0,CCT (reference),46,34
+M_cct_ref_paper_f0_s1,CCT (reference),57,45
+M_cct_ref_paper_f0_s2,CCT (reference),59,47
+M_cct_ref_paper_f1_s0,CCT (reference),51,39
+M_cct_ref_paper_f2_s0,CCT (reference),53,41
+M_cct_ref_paper_f3_s0,CCT (reference),53,41
+M_cct_ref_paper_f4_s0,CCT (reference),51,39
+M_cct_tuned_fused_paper_f0_s0,CCT (tuned) + se,80,68
+M_cct_tuned_fused_paper_f0_s1,CCT (tuned) + se,82,70
+M_cct_tuned_fused_paper_f0_s2,CCT (tuned) + se,71,59
+M_cct_tuned_fused_paper_f1_s0,CCT (tuned) + se,73,61
+M_cct_tuned_fused_paper_f1_s1,CCT (tuned) + se,82,70
+M_cct_tuned_fused_paper_f1_s2,CCT (tuned) + se,82,70
+M_cct_tuned_fused_paper_f2_s0,CCT (tuned) + se,76,64
+M_cct_tuned_fused_paper_f2_s1,CCT (tuned) + se,80,68
+M_cct_tuned_fused_paper_f2_s2,CCT (tuned) + se,58,46
+M_cct_tuned_fused_paper_f3_s0,CCT (tuned) + se,58,46
+M_cct_tuned_fused_paper_f3_s1,CCT (tuned) + se,80,68
+M_cct_tuned_fused_paper_f3_s2,CCT (tuned) + se,62,50
+M_cct_tuned_fused_paper_f4_s0,CCT (tuned) + se,96,84
+M_cct_tuned_fused_paper_f4_s1,CCT (tuned) + se,64,52
+M_cct_tuned_fused_paper_f4_s2,CCT (tuned) + se,67,55
+M_cct_tuned_paper_f0_s0,CCT (tuned),71,59
+M_cct_tuned_paper_f0_s1,CCT (tuned),68,56
+M_cct_tuned_paper_f0_s2,CCT (tuned),79,67
+M_cct_tuned_paper_f1_s0,CCT (tuned),77,65
+M_cct_tuned_paper_f2_s0,CCT (tuned),73,61
+M_cct_tuned_paper_f3_s0,CCT (tuned),72,60
+M_cct_tuned_paper_f4_s0,CCT (tuned),64,52
+M_freqcct_final_paper_f0_s0,FreqCCT (final),59,47
+M_freqcct_final_paper_f0_s1,FreqCCT (final),64,52
+M_freqcct_final_paper_f0_s2,FreqCCT (final),59,47
+M_freqcct_final_paper_f1_s0,FreqCCT (final),73,61
+M_freqcct_final_paper_f2_s0,FreqCCT (final),61,49
+M_freqcct_final_paper_f3_s0,FreqCCT (final),68,56
+M_freqcct_final_paper_f4_s0,FreqCCT (final),86,74
+X_cct_tuned_norm_paper_f0_s0,CCT (tuned) + norm,76,64
+X_cct_tuned_se_paper_f0_s0,CCT (tuned) + se,76,64
+X_cct_tuned_se_vdrop_paper_f0_s0,CCT (tuned) + se_vdrop,100,97
+X_cct_tuned_stem_paper_f0_s0,CCT (tuned) + stem,82,70
+X_cct_tuned_vdrop_paper_f0_s0,CCT (tuned) + vdrop,76,64
+X_freqcct_final_norm_paper_f0_s0,FreqCCT (final) + norm,60,48
+X_freqcct_final_se_paper_f0_s0,FreqCCT (final) + se,59,47
+X_freqcct_final_se_vdrop_paper_f0_s0,FreqCCT (final) + se_vdrop,67,55
+X_freqcct_final_stem_paper_f0_s0,FreqCCT (final) + stem,74,62
+X_freqcct_final_vdrop_paper_f0_s0,FreqCCT (final) + vdrop,72,60

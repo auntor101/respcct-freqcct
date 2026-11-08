@@ -1,0 +1,8 @@
+class,patient test fold 0,patient test fold 1,patient test fold 2,patient test fold 3,patient test fold 4
+COPD,1103,1514,2391,2045,2784
+Healthy,169,222,125,153,159
+Asthma,174,54,114,130,48
+Pneumonia,108,52,9,21,165
+URTI,47,35,14,28,35
+Bronchiectasis,0,28,14,56,14
+Bronchiolitis,21,21,28,7,14

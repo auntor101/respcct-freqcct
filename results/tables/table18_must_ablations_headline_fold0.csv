@@ -1,0 +1,12 @@
+ablation,params,MFLOPs,accuracy,macro_F1,MCC,rec_vote_acc,delta_macro_F1
+headline (reference),173187,124.2,0.9813,0.9695,0.941,0.9849,0.0
+views: mel only,172001,118.3,0.978,0.9601,0.929,0.9826,-0.0094
+views: mel + CQT,172594,121.3,0.9775,0.9597,0.9287,0.9818,-0.0098
+views: mel + MFCC,172594,121.3,0.978,0.965,0.9305,0.9857,-0.0045
+views: CQT + MFCC (no mel),172594,121.3,0.9665,0.9355,0.8963,0.9715,-0.034
+encoder: 0 layers,39299,56.1,0.8533,0.6779,0.5814,0.8629,-0.2916
+"encoder: no attention, params matched (FFN ratio 4.0)",172675,98.0,0.9741,0.9516,0.919,0.9762,-0.0179
+data: real frames only,173187,124.2,0.9334,0.7801,0.7697,0.9366,-0.1894
+"data: real frames only, class-balanced sampling",173187,124.2,0.6265,0.4584,0.3946,0.6442,-0.5111
+pooling: mean,173122,124.2,0.9801,0.957,0.9366,0.9826,-0.0125
+pooling: class token,173186,124.8,0.9767,0.9559,0.9266,0.9826,-0.0136

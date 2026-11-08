@@ -1,0 +1,8 @@
+cls,real_frames,augmented_frames,recordings,patients,sources
+COPD,9837,0,1324,115,"ICBHI 6055, RD@TR 3629, KAUH 153"
+Healthy,828,9009,140,61,"KAUH 588, ICBHI 240"
+Asthma,520,9317,97,33,"KAUH 513, ICBHI 7"
+Pneumonia,355,9482,52,11,"ICBHI 259, KAUH 96"
+URTI,159,9678,23,14,ICBHI 159
+Bronchiectasis,112,9725,16,7,ICBHI 112
+Bronchiolitis,91,9746,13,6,ICBHI 91

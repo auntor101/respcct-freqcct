@@ -1,0 +1,3 @@
+model,params,expected_params,mflops_counted,mflops_formula,expected_mflops,ok
+CCT,173128,173128,124.23,124.21,124.2,True
+FreqCCT,158023,158023,83.0,83.0,83.0,True

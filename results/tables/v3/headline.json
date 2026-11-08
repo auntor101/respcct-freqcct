@@ -1,0 +1,6 @@
+{
+  "headline": "CCT-M kd",
+  "fold": 0,
+  "seed": 0,
+  "rule": "highest validation macro-F1 on real frames; ties within 0.002 -> fewer parameters"
+}

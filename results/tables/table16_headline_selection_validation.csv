@@ -1,0 +1,5 @@
+model,label,val_macro_f1,val_acc,params,mflops
+cct_ref,CCT (reference),0.96918,0.96918,173128,124.23258
+freqcct_final,FreqCCT (final),0.9718,0.97183,124999,72.51354
+cct_tuned,CCT (tuned),0.97474,0.97473,173128,124.23258
+cct_tuned_fused,CCT (tuned) + se,0.97758,0.9776,173187,124.23267

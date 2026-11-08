@@ -1,0 +1,93 @@
+{
+  "model": "cct",
+  "base": "cct_tuned",
+  "best_variant": "se",
+  "adopted": true,
+  "decision": "adopted: variant se, mean validation gain +0.0028, worst fold accuracy change +0.0009",
+  "ref_val_f1": 0.9758977579829123,
+  "ref_sd": 0.002,
+  "variants": {
+    "norm": {
+      "val_macro_f1": 0.9767782755342391,
+      "val_acc": 0.9767652931566527,
+      "params": 173128
+    },
+    "stem": {
+      "val_macro_f1": 0.9793301713907632,
+      "val_acc": 0.9793065892176439,
+      "params": 173287
+    },
+    "se": {
+      "val_macro_f1": 0.9796501933621223,
+      "val_acc": 0.9796696315120712,
+      "params": 173187
+    },
+    "vdrop": {
+      "val_macro_f1": 0.9664078253899114,
+      "val_acc": 0.9664185877654746,
+      "params": 173128
+    },
+    "se_vdrop": {
+      "val_macro_f1": 0.9665054180049725,
+      "val_acc": 0.9666001089126883,
+      "params": 173187
+    }
+  },
+  "core": {
+    "lr": 0.002946392572409209,
+    "wd": 0.0,
+    "batch_size": 128,
+    "smooth": 0.15,
+    "sched": "cosine",
+    "fmask": 0,
+    "tmask": 8,
+    "mixup": 0.0,
+    "ema": 0.99,
+    "max_epochs": 100,
+    "patience": 12,
+    "clip": 1.0,
+    "mlp_drop": 0.08773376258157164,
+    "attn_drop": 0.08107134336033077,
+    "sd": 0.08471795361103053,
+    "balance": false,
+    "arch": "cct",
+    "fusion": "se"
+  },
+  "per_fold": [
+    {
+      "fold": 0,
+      "base_val_f1": 0.9758977579829123,
+      "fused_val_f1": 0.980899383231537,
+      "base_val_acc": 0.9758576874205845,
+      "fused_val_acc": 0.9809402795425667
+    },
+    {
+      "fold": 1,
+      "base_val_f1": 0.9782215367289389,
+      "fused_val_f1": 0.9791155861633457,
+      "base_val_acc": 0.9782174623343619,
+      "fused_val_acc": 0.9791250680704302
+    },
+    {
+      "fold": 2,
+      "base_val_f1": 0.9689593707927315,
+      "fused_val_f1": 0.9707311414218539,
+      "base_val_acc": 0.9689598838264658,
+      "fused_val_acc": 0.9707750952986023
+    },
+    {
+      "fold": 3,
+      "base_val_f1": 0.9726365806937974,
+      "fused_val_f1": 0.9745938778735954,
+      "base_val_acc": 0.9725903067707388,
+      "fused_val_acc": 0.974587039390089
+    },
+    {
+      "fold": 4,
+      "base_val_f1": 0.9780041557732926,
+      "fused_val_f1": 0.982566292749721,
+      "base_val_acc": 0.9780359411871483,
+      "fused_val_acc": 0.9825739698674896
+    }
+  ]
+}

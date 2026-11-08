@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "RespCCT and FreqCCT: Lightweight and Explainable Convolutional Transformers for Multi-Class Respiratory Disease Classification"
+type: software
+version: 1.0.0
+date-released: 2026-11-07
+license: MIT
+authors:
+  - family-names: Chakma
+    given-names: Auntor
+    orcid: "https://orcid.org/0009-0002-8220-8122"
+    affiliation: "ELITE Research Lab, New York, NY, USA"
+  - family-names: Akter
+    given-names: Mst. Farhana
+    affiliation: "Department of Computer Science and Engineering, East Delta University, Chattogram, Bangladesh; ELITE Research Lab, New York, NY, USA"
+  - family-names: Mufti
+    given-names: Abu Henaf Rashid Ahmad
+    affiliation: "Department of Computer Science and Engineering, United International University, Dhaka, Bangladesh; ELITE Research Lab, New York, NY, USA"
+  - family-names: Yasmin
+    given-names: Asmana
+    affiliation: "Department of Computer Science and Engineering, East Delta University, Chattogram, Bangladesh; ELITE Research Lab, New York, NY, USA"
+repository-code: "https://github.com/auntor101/respcct-freqcct"

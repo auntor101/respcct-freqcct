@@ -1,0 +1,9 @@
+split,part,frames,real,patients,COPD,Healthy,Asthma,Pneumonia,URTI,Bronchiectasis,Bronchiolitis
+paper f0,train,49578,8570,247,7083,7083,7082,7082,7082,7083,7083
+paper f0,val,5509,973,240,787,787,787,787,787,787,787
+paper f0,test,2359,2359,232,1967,139,101,70,35,29,18
+patient f0 (G0),train,45800,9312,180,7985,6347,6571,5863,6098,6158,6778
+patient f0 (G0),val,968,968,20,749,121,0,35,14,42,7
+patient f0 (G0),test,1622,1622,47,1103,169,174,108,47,0,21
+tuning (frame),train,46823,8104,247,6689,6689,6689,6689,6689,6689,6689
+tuning (frame),val,1439,1439,215,1181,112,59,35,25,14,13
